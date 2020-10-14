@@ -2,8 +2,8 @@ account:
   production_user1:
     name: "18019762900"
     note: "母账号"
-    access_key: "f31b0d0b-d3be813c-58cbaef6-nbtycf4rw2"
-    secret_key: "568f4eba-37c84e2d-1ddfe7b4-015e7"
+    access_key: ""
+    secret_key: ""
     account_id:
       - id: "13117811"
         account_Type: "spot"
@@ -30,8 +30,8 @@ account:
   test_user1:
     name: "18019762900"
     note: "测试母账号"
-    access_key: "2fc257e8-bgbfh5tv3f-9367b107-9bad7"
-    secret_key: "fb207e46-063f793d-6e9be7ae-bbf26"
+    access_key: ""
+    secret_key: ""
 env:
   active: "test"
   test:
