@@ -1,0 +1,57 @@
+account:
+  production_user1:
+    name: "18019762900"
+    note: "母账号"
+    access_key: "f31b0d0b-d3be813c-58cbaef6-nbtycf4rw2"
+    secret_key: "568f4eba-37c84e2d-1ddfe7b4-015e7"
+    account_id:
+      - id: "13117811"
+        account_Type: "spot"
+        account_state: "working"
+        Subtype: ""
+      - id: "13695568"
+        account_Type: "margin"
+        account_state: "working"
+        Subtype: "btcusdt"
+      - id: "13117839"
+        account_Type: "otc"
+        account_state: "working"
+        Subtype: ""
+      - id: "13731522"
+        account_Type: "investment"
+        account_state: "working"
+        Subtype: ""
+
+  production_user2:
+    name: ""
+    note: "子账号"
+    access_key: ""
+    secret_key: ""
+  test_user1:
+    name: "18019762900"
+    note: "测试母账号"
+    access_key: "2fc257e8-bgbfh5tv3f-9367b107-9bad7"
+    secret_key: "fb207e46-063f793d-6e9be7ae-bbf26"
+env:
+  active: "test"
+  test:
+    rest_domain: "http://api.testnet.huobi.pro"
+    web_socket_domain: "wss://api.testnet.huobi.pro/ws/v1"
+    web_socket_feed_domain: ""
+  production_aws:
+    rest_domain: "https://api-aws.huobi.pro"
+    web_socket_domain: "wss://api.huobi.pro/ws"
+    web_socket_feed_domain: "wss://api-aws.huobi.pro/feed"
+    web_socket_asset_feed_domain: "wss://api-aws.huobi.pro/ws/v1"
+  production:
+    rest_domain: "https://api.huobi.pro"
+    web_socket_domain: "wss://api.huobi.pro/ws"
+    web_socket_feed_domain: "wss://api.huobi.pro/feed"
+    web_socket_asset_feed_domain: "wss://api.huobi.pro/ws/v1"
+
+
+
+
+
+
+
